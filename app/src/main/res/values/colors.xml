@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#00BCD4</color>
+    <color name="colorPrimaryDark">#00838F</color>
+    <color name="colorAccent">#80DEEA</color>
+
+    <color name="Painel">#1B5E20</color>
+    <color name="Paine2">#388E3C</color>
+    <color name="Paine3">#4CAF50</color>
+    <color name="Paine4">#81C784</color>
+    <color name="Paine5">#E8F5E9</color>
+
+</resources>

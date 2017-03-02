@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Modern Art Ui</string>
+    <string name="painel1">Painel 1</string>
+    <string name="painel2">Painel 2</string>
+    <string name="painel3">Painel 3</string>
+    <string name="painel4">Painel 4</string>
+    <string name="painel5">Painel 5</string>
+</resources>

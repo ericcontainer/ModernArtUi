@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="studio.container.com.modernartui.MainActivity">
+
+    <LinearLayout
+        android:id="@+id/ll1"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+
+
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv1"
+            android:layout_width="150dp"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:text="@string/painel1"
+            android:gravity="center_horizontal|center_vertical"
+            android:background="@color/Painel"
+            android:layout_margin="1dp"
+            />
+        <TextView
+            android:id="@+id/tv2"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:text="@string/painel2"
+            android:gravity="center_horizontal|center_vertical"
+            android:background="@color/Paine2"
+            android:layout_margin="1dp"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+
+
+        android:layout_toRightOf="@+id/ll1"
+        >
+
+        <TextView
+            android:id="@+id/tv3"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:text="@string/painel3"
+            android:layout_weight="1"
+            android:gravity="center_horizontal|center_vertical"
+            android:background="@color/Paine3"
+            android:layout_margin="1dp"
+            />
+        <TextView
+            android:id="@+id/tv4"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:text="@string/painel4"
+            android:layout_weight="1"
+            android:gravity="center_horizontal|center_vertical"
+            android:background="@color/Paine4"
+            android:layout_margin="1dp"
+            />
+
+        <TextView
+            android:id="@+id/tv5"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:text="@string/painel5"
+            android:layout_weight="1"
+            android:gravity="center_horizontal|center_vertical"
+            android:background="@color/Paine5"
+            android:layout_margin="1dp"
+             />
+
+    </LinearLayout>
+
+    <SeekBar
+        android:id="@+id/seekbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+         />
+
+</RelativeLayout>

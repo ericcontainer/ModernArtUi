@@ -5,4 +5,9 @@
     <string name="painel3">Painel 3</string>
     <string name="painel4">Painel 4</string>
     <string name="painel5">Painel 5</string>
+    <string name="primary_menu">Primary Menu</string>
+    <string name="dialog_title">Visite o Moma</string>
+    <string name="dialog_menu">Inspired by works of artists such as \n
+        Piet Mondrian and Ben Nicholson. \n\n
+        Click Bellow to learn more!</string>
 </resources>
